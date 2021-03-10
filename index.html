@@ -56,36 +56,51 @@
     </div>
   </nav>
   <!-- mobile -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-primary mobile show">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <div class="">
-
-    </div>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-        aria-expanded="false" aria-label="Toggle navigation"></button>
+  <nav class="navbar navbar-expand-sm bar-top mobile show">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tin tức</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Liên hệ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hỏi đáp</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Hotline: 18001800</a>
+      </li>
+    </ul>
+  </nav>
+  <nav class="navbar navbar-expand-sm navbar-light bg-light mobile show">
+    <button class="btn" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#" style="color: #fd7d3b; font-weight: bold; font-size:30px">
+      LOGO
+    </a>
+    <a class="btn btn-success" href="#">
+      <i class="fa fa-user" aria-hidden="true"></i>
+    </a>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="dropdownId">
-                    <a class="dropdown-item" href="#">Action 1</a>
-                    <a class="dropdown-item" href="#">Action 2</a>
-                </div>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Trang chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Chủ phương tiện</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Chủ hàng</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Giới thiệu sàn</a>
+        </li>
+      </ul>
     </div>
-</nav>
-  <!--  -->
+  </nav>
+  <!-- main -->
   <main>
     <div class="banner">
       <img src="images/banner_03.png" alt="banner" />
@@ -94,13 +109,17 @@
       </div>
     </div>
     <div class="giaiphap" style="width: 100%">
-      <h5 style="font-size:21px"><b>LOGO</b></h5>
+      <h5 style="font-size: 21px"><b>LOGO</b></h5>
       <h4 style="margin-top: 10px">GIẢI PHÁP HIỆU QUẢ CHO VẬN TẢI</h4>
-      <div>------------ <img src="icons/delivery.png" alt="" width="25" height="25"> ------------</div>
+      <div>
+        ------------
+        <img src="icons/delivery.png" alt="" width="25" height="25" />
+        ------------
+      </div>
       <div class="container-fluid mt-5">
         <!-- first -->
         <div class="row justify-content-center">
-          <div class="col-lg-5 first text-right ">
+          <div class="col-lg-5 first text-right">
             <div class="content-left">
               <h5>QUẢN LÝ BẰNG CÔNG NGHỆ</h5>
               <p style="margin-top: 1rem">Quán trình vận hành được quản</p>
@@ -108,52 +127,69 @@
               <p>vận hành với quy mô rất lớn và độ hiệu quả cao</p>
             </div>
             <div class="content-right">
-              <img src="icons/smartphone1.png" alt="" width="50" height="55">
+              <img src="icons/smartphone1.png" alt="" width="50" height="55" />
             </div>
           </div>
           <div class="col-lg-2"></div>
           <div class="col-lg-5 secondary text-left">
             <div class="content-right">
-              <img src="icons/cash.png" alt="" width="50" height="80">
+              <img src="icons/cash.png" alt="" width="50" height="80" />
             </div>
             <div class="content-left">
               <h5>GIÁ THÀNH HỢP LÝ</h5>
-              <p style="margin-top: 1rem">Sử dụng phương thức vận chuyển phù hợp</p>
+              <p style="margin-top: 1rem">
+                Sử dụng phương thức vận chuyển phù hợp
+              </p>
               <p>với các loại hàng hóa khác nhau vừa tiết kiệm chi</p>
-              <p>phí lại vừa hạn chế tối đa những rủi ro gặp phải khi vận chuyển</p>
+              <p>
+                phí lại vừa hạn chế tối đa những rủi ro gặp phải khi vận
+                chuyển
+              </p>
             </div>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-5 text-right" style="font-size:30px;color:rgb(172, 172, 172);font-weight: 300;">
+          <div class="col-lg-5 text-right" style="
+                font-size: 30px;
+                color: rgb(172, 172, 172);
+                font-weight: 300;
+              ">
             <span>|</span>
           </div>
           <div class="col-lg-2"></div>
-          <div class="col-lg-5 text-left" style="font-size:30px;color:rgb(172, 172, 172);font-weight: 300;">
+          <div class="col-lg-5 text-left" style="
+                font-size: 30px;
+                color: rgb(172, 172, 172);
+                font-weight: 300;
+              ">
             <span>|</span>
           </div>
         </div>
         <!-- second -->
         <div class="row justify-content-center">
-          <div class="col-lg-5 first text-right ">
+          <div class="col-lg-5 first text-right">
             <div class="content-left">
               <h5>CHÚ TRỌNG DỊCH VỤ KHÁCH HÀNG</h5>
-              <p style="margin-top: 1rem">Kết hợp giữa đội ngũ nhận sự chuyên</p>
+              <p style="margin-top: 1rem">
+                Kết hợp giữa đội ngũ nhận sự chuyên
+              </p>
               <p>nghiệp tận tâm và một hệ thống công nghệ hỗ trợ,</p>
               <p>LOGO nâng tầm chất lượng dịch vụ của ngành vận tải</p>
             </div>
             <div class="content-right">
-              <img src="icons/phone.png" alt="" width="50" height="50">
+              <img src="icons/phone.png" alt="" width="50" height="50" />
             </div>
           </div>
           <div class="col-lg-2"></div>
           <div class="col-lg-5 secondary text-left">
             <div class="content-right">
-              <img src="icons/light.png" alt="" width="50" height="65">
+              <img src="icons/light.png" alt="" width="50" height="65" />
             </div>
             <div class="content-left">
               <h5>MÔ HÌNH KINH DOANH SÁNG TẠO</h5>
-              <p style="margin-top: 1rem">Linh hoạt áp dụng mô hình kinh tế</p>
+              <p style="margin-top: 1rem">
+                Linh hoạt áp dụng mô hình kinh tế
+              </p>
               <p>chia sẻ với một hệ sinh thái các dịch vụ bỗ trợ,</p>
               <p>LOGO mang lại nhiều giá trị cho khách hàng và đối tác.</p>
             </div>
@@ -161,46 +197,59 @@
         </div>
       </div>
     </div>
-    <div style="width: 100%;margin-top: 5em;position: relative; background:url('images/taiungdung_(2).png') no-repeat center;height:750px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column; margin-bottom:10em">
+    <div style="
+          width: 100%;
+          margin-top: 5em;
+          position: relative;
+          background: url('images/taiungdung_(2).png') no-repeat center;
+          height: 750px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin-bottom: 10em;
+        ">
       <div class="container h-100 content">
         <!-- first -->
         <div class="row justify-content-center">
-          <div class="col-lg-12 text-center" style="font-weight: bold;">
+          <div class="col-lg-12 text-center" style="font-weight: bold">
             <div>Hệ thống tìm</div>
             <div>kiếm nhà xe thích hợp</div>
           </div>
         </div>
         <!-- second -->
         <div class="row">
-          <div class="col-lg-4 text-center" style="font-weight: bold;">
+          <div class="col-lg-4 text-center" style="font-weight: bold">
             <div>Tạo đơn hàng</div>
             <div>trên hệ thống web</div>
           </div>
           <div class="col-lg-4"></div>
-          <div class="col-lg-4 text-center" style="font-weight: bold;">
+          <div class="col-lg-4 text-center" style="font-weight: bold">
             <div>Theo dõi đơn</div>
             <div>hàng qua hệ thống</div>
           </div>
         </div>
         <!-- third -->
         <div class="row">
-          <div class="col-lg-4 text-center" style="font-weight: bold;">
+          <div class="col-lg-4 text-center" style="font-weight: bold">
             <div>Đăng ký sử</div>
             <div>dụng dịch vụ</div>
           </div>
           <div class="col-lg-4"></div>
-          <div class="col-lg-4 text-center" style="font-weight: bold;">
+          <div class="col-lg-4 text-center" style="font-weight: bold">
             <div>Kết thúc</div>
           </div>
         </div>
       </div>
       <!-- <img class="w-100" src="images/taiungdung_(2).png" alt="" /> -->
-      <div
-        style="font-size:14px;text-align: center; margin-bottom:10px; color:rgb(73, 73, 73);position:absolute;top: 45rem;">
+      <div style="
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 10px;
+            color: rgb(73, 73, 73);
+            position: absolute;
+            top: 45rem;
+          ">
         <b>Tải ứng dụng LOGO tại đây:</b>
       </div>
       <div class="btn-ungdung">
@@ -220,36 +269,50 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid"
-      style="width: 100%; margin-top: 40px; background-color: #f7f2e3;height:500px;font-family: 'Arimo'; font-weight: 600;">
+    <div class="container-fluid" style="
+          width: 100%;
+          margin-top: 40px;
+          background-color: #f7f2e3;
+          height: 500px;
+          font-family: 'Arimo';
+          font-weight: 600;
+        ">
       <!-- <img src="images/nanglucvantai_08.png" alt="" style="width: 100%" /> -->
       <div class="row justify-content-center text-center">
-        <div class="col-lg-6 text-right" style="padding-right: 30px;">
-          <h2 style="color: #FD7D3B;padding-top:4.5rem;"><b>200<span style="font-weight: bold;">+</span> </b></h2>
-          <div style="font-size: 2vh;"><b>NHÀ XE</b></div>
+        <div class="col-lg-6 text-right" style="padding-right: 30px">
+          <h2 style="color: #fd7d3b; padding-top: 4.5rem">
+            <b>200<span style="font-weight: bold">+</span> </b>
+          </h2>
+          <div style="font-size: 2vh"><b>NHÀ XE</b></div>
         </div>
-        <div class="col-lg-6 text-left" style="color:#FFBA41; padding-left: 30px; padding-top:3rem">
-          <h1 style="font-size: 13vh;"><b>NĂNG</b></h1>
+        <div class="col-lg-6 text-left" style="color: #ffba41; padding-left: 30px; padding-top: 3rem">
+          <h1 style="font-size: 13vh"><b>NĂNG</b></h1>
         </div>
       </div>
       <!-- row 2 -->
       <div class="row justify-content-center text-center align-content-center">
-        <div class="col-lg-6 text-right" style="padding-right: 30px;">
-          <h2 style="color: #FD7D3B;padding-top:30px"><b>5000<span style="font-weight: bold;">+</span> </b></h2>
-          <div style="font-size: 2vh;"><b>XE ĐẦU KÉO VÀ XE TẢI CÁC LOẠI</b></div>
+        <div class="col-lg-6 text-right" style="padding-right: 30px">
+          <h2 style="color: #fd7d3b; padding-top: 30px">
+            <b>5000<span style="font-weight: bold">+</span> </b>
+          </h2>
+          <div style="font-size: 2vh">
+            <b>XE ĐẦU KÉO VÀ XE TẢI CÁC LOẠI</b>
+          </div>
         </div>
-        <div class="col-lg-6 text-left" style="color:#FFBA41; padding-left: 30px;">
-          <h1 style="font-size: 13vh;"><b>LỰC</b></h1>
+        <div class="col-lg-6 text-left" style="color: #ffba41; padding-left: 30px">
+          <h1 style="font-size: 13vh"><b>LỰC</b></h1>
         </div>
       </div>
       <!-- row 3 -->
       <div class="row justify-content-center text-center align-content-center">
-        <div class="col-lg-6 text-right" style="padding-right: 30px;">
-          <h2 style="color: #FD7D3B;padding-top:30px"><b>10000<span style="font-weight: bold;">+</span> </b></h2>
-          <div style="font-size: 2vh;"><b>TUYẾN ĐƯỜNG</b></div>
+        <div class="col-lg-6 text-right" style="padding-right: 30px">
+          <h2 style="color: #fd7d3b; padding-top: 30px">
+            <b>10000<span style="font-weight: bold">+</span> </b>
+          </h2>
+          <div style="font-size: 2vh"><b>TUYẾN ĐƯỜNG</b></div>
         </div>
-        <div class="col-lg-6 text-left" style="color:#FFBA41; padding-left: 30px;">
-          <h1 style="font-size: 13vh;"><b>VẬN TẢI</b></h1>
+        <div class="col-lg-6 text-left" style="color: #ffba41; padding-left: 30px">
+          <h1 style="font-size: 13vh"><b>VẬN TẢI</b></h1>
         </div>
       </div>
     </div>
