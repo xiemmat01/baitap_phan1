@@ -337,13 +337,10 @@ nav.mobile {
   }
   .bar-top .navbar-nav {
     flex-direction: row !important;
-    font-size: 14px;
+    font-size: 3vw;
   }
   .bar-top .navbar-nav li{
     padding-right: 10px;
-  }
-  .bar-top .navbar-nav li:last-child{
-    margin-left: 10em;
   }
   .bar-top .navbar-nav li a{
     color: rgb(255, 255, 255);
