@@ -116,31 +116,7 @@ a:hover {
   z-index: 1;
   right: 2rem;
 }
-.banner .btn-play {
-  display: block;
-  color: white;
-  width: 150px;
-  position: absolute;
-  z-index: 1;
-  left: -2rem;
-  bottom: 13rem;
-}
-.banner .btn-play i {
-  width: 100px;
-  height: 100px;
-  font-size: 40px;
-  border: 5px solid white;
-  border-radius: 55px;
-  padding-left: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.banner .btn-play i:hover {
-  color: rgb(235, 233, 233);
-  border: 5px solid rgb(235, 233, 233);
-}
+
 .btn-ungdung {
   width: 100%;
   display: flex;
@@ -245,11 +221,15 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
   flex-direction: column;
+  margin-top: 30px;
 }
-.giaiphap h4 {
-  font-weight: bold;
+.giaiphap .lg-content {
+  font-size: 2vw;
+}
+.giaiphap .nd-content {
+  margin-top: 10px;
+  font-size: 2vw;
 }
 .col-lg-2 {
   padding-right: 0px !important;
@@ -262,6 +242,7 @@ a:hover {
   flex-direction: row;
   padding-right: 0px !important;
   padding-left: 0px !important;
+  text-align: right;
 }
 .col-lg-5.first .content-left {
   margin-right: 35px;
@@ -284,6 +265,7 @@ a:hover {
   flex-direction: row;
   padding-right: 0px !important;
   padding-left: 0px !important;
+  text-align: left;
 }
 .col-lg-5.secondary .content-left {
   padding-left: 35px;
@@ -294,34 +276,48 @@ a:hover {
   font-size: 60px;
   color: #ffb30e;
 }
-.container.content .row:nth-child(1) .col-lg-12 {
+.download {
+  width: 100%;
+  margin-top: 5em;
+  position: relative;
+  background: url("images/taiungdung_(2).png") no-repeat center;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10em;
+}
+.download .container.content .row:nth-child(1) .col-lg-12 {
   font-size: 12px;
   margin-top: 6em;
 }
-.container.content .row .col-lg-4 {
+.download .container.content .row .col-lg-4 {
   font-size: 12px;
   margin-top: 6em;
 }
-.container.content .row:nth-child(3) .col-lg-4 {
+.download .container.content .row:nth-child(3) .col-lg-4 {
   font-size: 12px;
   margin-top: 15.5em;
 }
-.container.content .row:nth-child(2) .col-lg-4:nth-child(1) {
+.download .container.content .row:nth-child(2) .col-lg-4:nth-child(1) {
   padding-left: 17em;
 }
-.container.content .row:nth-child(2) .col-lg-4:nth-child(3) {
+.download .container.content .row:nth-child(2) .col-lg-4:nth-child(3) {
   padding-right: 17.5em;
 }
-.container.content .row:nth-child(3) .col-lg-4:nth-child(1) {
+.download .container.content .row:nth-child(3) .col-lg-4:nth-child(1) {
   padding-right: 7em;
 }
-.container.content .row:nth-child(3) .col-lg-4:nth-child(3) {
+.download .container.content .row:nth-child(3) .col-lg-4:nth-child(3) {
   padding-left: 7em;
   padding-top: 10px;
 }
-nav.mobile {
+nav.mobile,
+.giaiphap .mb-hidden {
   display: none;
 }
+
 /* media */
 @media screen and (max-width: 768px) {
   nav.hide {
@@ -329,6 +325,14 @@ nav.mobile {
   }
   nav.mobile.show {
     display: flex;
+  }
+  .giaiphap .pc-hidden {
+    display: none;
+  }
+  .giaiphap .mb-hidden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* menu top */
   .bar-top {
@@ -368,6 +372,17 @@ nav.mobile {
     border-radius: 45px;
   }
   /* content */
+  .giaiphap .lg-content {
+    font-size: 2.5vh;
+  }
+  .giaiphap .nd-content {
+    margin-top: 10px;
+    font-size: 2.5vh;
+  }
+  .giaiphap .container-fluid .row {
+    padding: 3vh 3vw 3vh 3vw;
+  }
+  /*  */
 }
 @media all and (max-width: 576px) {
   .banner .carousel-caption {
@@ -391,4 +406,13 @@ nav.mobile {
     align-items: center;
     border-radius: 45px;
   }
+  /* content */
+  .giaiphap .lg-content {
+    font-size: 2vh;
+  }
+  .giaiphap .nd-content {
+    margin-top: 10px;
+    font-size: 2vh;
+  }
+  /*  */
 }

@@ -91,7 +91,7 @@
       <div class="btn-play">
         <i class="fa fa-play" aria-hidden="true"></i>
       </div> -->
-      <div id="carouselId" class="carousel slide h-100 w-100" data-ride="carousel">
+      <div id="carouselId" class="carousel slide w-100" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselId" data-slide-to="0" class="active"></li>
           <li data-target="#carouselId" data-slide-to="1"></li>
@@ -128,17 +128,18 @@
       </div>
     </div>
     <div class="giaiphap" style="width: 100%">
-      <h5 style="font-size: 21px"><b>LOGO</b></h5>
-      <h4 style="margin-top: 10px">GIẢI PHÁP HIỆU QUẢ CHO VẬN TẢI</h4>
+      <div class="lg-content"><b>LOGO</b></div>
+      <div class="nd-content"><b>GIẢI PHÁP HIỆU QUẢ CHO VẬN TẢI</b></div>
       <div>
         ------------
         <img src="icons/delivery.png" alt="" width="25" height="25" />
         ------------
       </div>
-      <div class="container-fluid mt-5">
+      <!-- desktop -->
+      <div class="container-fluid mt-5 pc-hidden">
         <!-- first -->
         <div class="row justify-content-center">
-          <div class="col-lg-5 first text-right">
+          <div class="col-lg-5 first">
             <div class="content-left">
               <h5>QUẢN LÝ BẰNG CÔNG NGHỆ</h5>
               <p style="margin-top: 1rem">Quán trình vận hành được quản</p>
@@ -150,7 +151,7 @@
             </div>
           </div>
           <div class="col-lg-2"></div>
-          <div class="col-lg-5 secondary text-left">
+          <div class="col-lg-5 secondary">
             <div class="content-right">
               <img src="icons/cash.png" alt="" width="50" height="80" />
             </div>
@@ -168,7 +169,7 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-5 text-right hide" style="
+          <div class="col-lg-5 text-right hidden" style="
                 font-size: 30px;
                 color: rgb(172, 172, 172);
                 font-weight: 300;
@@ -176,7 +177,7 @@
             <span>|</span>
           </div>
           <div class="col-lg-2"></div>
-          <div class="col-lg-5 text-left hide" style="
+          <div class="col-lg-5 text-left hidden" style="
                 font-size: 30px;
                 color: rgb(172, 172, 172);
                 font-weight: 300;
@@ -186,7 +187,7 @@
         </div>
         <!-- second -->
         <div class="row justify-content-center">
-          <div class="col-lg-5 first text-right">
+          <div class="col-lg-5 first">
             <div class="content-left">
               <h5>CHÚ TRỌNG DỊCH VỤ KHÁCH HÀNG</h5>
               <p style="margin-top: 1rem">
@@ -215,19 +216,44 @@
           </div>
         </div>
       </div>
+      <!-- /desktop -->
+      <div class="container-fluid mt-4 mb-hidden flex-column" style="font-size: 2.5vw;">
+        <div class="row justify-content-center align-items-center" style="border: 2px solid #000">
+          <div class="col-xs-1-12 mr-2">
+            <img src="icons/smartphone1.png" alt="" width="50" height="55" />
+          </div>
+          <div class="col-xs-1-12">
+            <div><b>QUẢN LÝ BẰNG CÔNG NGHỆ</b></div>
+            <div>Quán trình vận hành được quản</div>
+            <div>lý xuyên suốt bằng công nghệ giúp LOGO</div>
+            <div>vận hành với quy mô rất lớn và độ hiệu quả cao</div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center" style="border: 2px solid #000">
+          <div class="col-xs-1-12 mr-2">
+            <img src="icons/smartphone1.png" alt="" width="50" height="55" />
+          </div>
+          <div class="col-xs-1-12">
+            <div><b>QUẢN LÝ BẰNG CÔNG NGHỆ</b></div>
+            <div>Quán trình vận hành được quản</div>
+            <div>lý xuyên suốt bằng công nghệ giúp LOGO</div>
+            <div>vận hành với quy mô rất lớn và độ hiệu quả cao</div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center" style="border: 2px solid #000">
+          <div class="col-xs-1-12 mr-2">
+            <img src="icons/smartphone1.png" alt="" width="50" height="55" />
+          </div>
+          <div class="col-xs-1-12">
+            <div><b>QUẢN LÝ BẰNG CÔNG NGHỆ</b></div>
+            <div>Quán trình vận hành được quản</div>
+            <div>lý xuyên suốt bằng công nghệ giúp LOGO</div>
+            <div>vận hành với quy mô rất lớn và độ hiệu quả cao</div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div style="
-          width: 100%;
-          margin-top: 5em;
-          position: relative;
-          background: url('images/taiungdung_(2).png') no-repeat center;
-          height: 750px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          margin-bottom: 10em;
-        ">
+    <div class="download">
       <div class="container h-100 content">
         <!-- first -->
         <div class="row justify-content-center">
@@ -260,7 +286,6 @@
           </div>
         </div>
       </div>
-      <!-- <img class="w-100" src="images/taiungdung_(2).png" alt="" /> -->
       <div style="
             font-size: 14px;
             text-align: center;
@@ -288,7 +313,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid" style="
+    <div class="nlvt container-fluid" style="
           width: 100%;
           margin-top: 40px;
           background-color: #f7f2e3;
