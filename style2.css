@@ -50,6 +50,31 @@ header .container-fluid {
 .navbar-nav.navbar-top-2 .nav-link:hover {
   color: #eb6219;
 }
+.btn-dangky {
+  background-color: #013c5a;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.btn-dangky:hover,
+.btn-dangky:active,
+.btn-dangky:focus {
+  background-color: #055279;
+  box-shadow: none;
+  border: none;
+  color: #fff;
+}
+.navbar-nav.navbar-top-1 .nav-item.item-right {
+  position: absolute;
+  right: 0;
+  margin-right: 73px;
+}
+.navbar-nav.navbar-top-2 .nav-item.item-right {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+}
+
 /*----------- Banner ---------------*/
 .block-banner {
   position: relative;
@@ -178,7 +203,7 @@ header .container-fluid {
   text-align: center;
 }
 .block-intro-2 .block-inner {
-  padding: 0;
+  padding: 60px 0;
 }
 .block-inner .block-container {
   max-width: 850px;
@@ -336,12 +361,22 @@ header .container-fluid {
 .block-btn .btn-android:hover {
   background-color: #013752;
 }
+.block-btn .btn-ios img,
+.block-btn .btn-android img {
+  width: 35px;
+  height: 35px;
+}
 .block-btn .content {
   padding-left: 5px;
 }
 .block-btn .content h5 {
   font-size: 19px;
   font-weight: 800;
+}
+/* Section 3 */
+.block-feature {
+  text-align: center;
+  padding-top: 30px;
 }
 /*-------------- #endregion Main -----------*/
 /*------------- Footer -------------*/
@@ -429,7 +464,37 @@ header .container-fluid {
   .block-banner .content .title:nth-child(2) {
     padding-bottom: 0rem;
   }
+  /*   .block-intro-2 */
+  .block-intro-2 .item.item-6 {
+    width: 225px;
+    margin-left: -100px;
+  }
+  .block-intro-2 .item.item-6 .block-btn {
+    font-size: 6px;
+  }
+  .block-btn .btn-ios,
+  .block-btn .btn-android {
+    width: 100px;
+    height: 35px;
+  }
+  .block-btn .btn-ios img,
+  .block-btn .btn-android img {
+    width: 20px;
+    height: 20px;
+  }
+  .block-btn .content {
+    padding-left: 2px;
+  }
+  .block-btn .content h5 {
+    font-size: 5px;
+    font-weight: 800;
+  }
+  .block-intro-2 .item.item-6 .title {
+    padding-bottom: 4px;
+    font-size: 10px;
+  }
 }
+
 @media screen and (max-width: 320px) {
   .block-banner .content .mt-5 {
     margin-top: 1rem !important;
@@ -445,9 +510,17 @@ header .container-fluid {
   .block-banner .content .title {
     font-size: 10px;
   }
+  .block-intro-2 .item.item-6 {
+    width: 225px;
+  }
 }
-@media (max-width: 1350px) {
-  .navbar-top-1 .nav-item.item-right {
-    margin-left: 3rem;
+@media (max-width: 1070px) {
+  .block-intro-2 .block-container {
+    width: calc(100% - 115px);
+  }
+  .block-intro-2 .item p,
+  .block-intro-2 .item.item-1 p,
+  .block-intro-2 .item.item-5 p {
+    width: 115px;
   }
 }

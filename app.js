@@ -1,12 +1,12 @@
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
-const link = $$('.menu-bar .navbar-nav .link-item');
+const link = $$('.collapse .navbar-top-2 .nav-item .nav-link');
 const dot = $$('.container .row .dot');
 
 link.forEach((link, index) => {
     link.onclick = function () {
-        $('.link-item.active').classList.remove('active')
+        $('.nav-link.active').classList.remove('active')
         this.classList.add('active');
     }
 });
@@ -17,4 +17,4 @@ dot.forEach((dot, index) => {
         this.classList.add('active');
     }
 });
-console.log(dot);
+console.log(link);
