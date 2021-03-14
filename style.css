@@ -113,7 +113,7 @@ a:hover {
 }
 .banner img:nth-child(2) {
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   right: 2rem;
 }
 
@@ -280,7 +280,7 @@ a:hover {
   width: 100%;
   margin-top: 5em;
   position: relative;
-  background: url("images/taiungdung_(2).png") no-repeat center;
+  background:url('images/taiungdung_(2).png')no-repeat center;
   height: 750px;
   display: flex;
   justify-content: center;
@@ -320,6 +320,12 @@ nav.mobile,
 
 /* media */
 @media screen and (max-width: 768px) {
+  .download {
+    width:100%;
+    background-image:url('images/taiungdung_(2).png');
+    background-size:150% 50%;
+    font-size: 2vh !important;
+  }
   nav.hide {
     display: none;
   }
@@ -381,6 +387,11 @@ nav.mobile,
   }
   .giaiphap .container-fluid .row {
     padding: 3vh 3vw 3vh 3vw;
+  }
+  .giaiphap .container-fluid .row.outline{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 1px 4px 1px rgb(0 0 0 / 50%);
   }
   /*  */
 }
