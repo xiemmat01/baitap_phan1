@@ -17,4 +17,8 @@ dot.forEach((dot, index) => {
         this.classList.add('active');
     }
 });
-console.log(link);
+
+const toggle = $(".toggle");
+toggle.addEventListener("click", () => {
+    toggle.classList.toggle("change");
+});
