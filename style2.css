@@ -391,10 +391,71 @@ header .container-fluid {
   font-weight: 800;
 }
 /* Section 3 */
-.block-feature {
+.block-features {
   text-align: center;
   padding-top: 30px;
   background-color: #f7f2e3;
+}
+.block-features .block-inner {
+  position: relative;
+  padding-bottom: 30px;
+}
+.block-features .block-inner .block-item.right {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+.block-features .block-inner .block-item.left {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+
+}
+.block-item.right .item .title {
+  font-size: 2rem;
+  color: #ff8240;
+}
+.block-item.left .item .title {
+  font-size: 5rem;
+  color: #ff8240;
+  line-height: 12vh;
+}
+/*-------- Section 4 -----------*/
+.block-news{
+  padding-top:40px;
+  padding-bottom:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.block-news .heading{
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+.block-point{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+.block-point .point{
+  width:13px;
+  height:13px;
+  border-radius: 100%;
+  background-color: #f86d22;
+  cursor: pointer;
+  position: relative;
+}
+.block-point .point.active{
+  background-color: #013c5a;
+}
+.carousel-indicators [data-bs-target]{
+  opacity:1;
+}
+.card-text:last-child{
+  font-size: 14px;
 }
 /*-------------- #endregion Main -----------*/
 /*------------- Footer -------------*/
