@@ -1,4 +1,4 @@
-const $ = document.querySelector.bind(document);
+const $$$ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
 const link = $$('.collapse .navbar-top-2 .nav-item .nav-link');
@@ -7,7 +7,7 @@ const point = $$('.carousel-indicators .point');
 
 link.forEach((link, index) => {
     link.onclick = function () {
-        $('.nav-link.active').classList.remove('active')
+        $$$('.nav-link.active').classList.remove('active')
         this.classList.add('active');
     }
 });
@@ -19,15 +19,15 @@ link.forEach((link, index) => {
 //     }
 // });
 
-const toggle = $(".toggle");
+const toggle = $$$(".toggle");
 toggle.addEventListener("click", () => {
     toggle.classList.toggle("change");
 });
 
 point.forEach((active) => {
     active.onclick = function () {
-        $('.point.active').classList.remove('active');
+        $$$('.point.active').classList.remove('active');
         this.classList.add('active');
-    } 
+    }
 });
 console.log(point);
